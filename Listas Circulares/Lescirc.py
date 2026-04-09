@@ -59,4 +59,4 @@ class Lescirc:
         for i in range(self.quant):
             pos = (self.inicio + i) % self.tamanho_max
             print(self.vetor[pos], end=' ')
-    print()
+        print()
