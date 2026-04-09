@@ -1,6 +1,6 @@
-import Lescirc
+import Lescirc #importa o arquivo Lescirc.py onde a classe foi criada
 
-lista = Lescirc.Lescirc(3)
+lista = Lescirc.Lescirc(3) #cria a lista na memória com um tamanho fixo de 3
 
 # criei lista pequena - com tamanho 3 - pra facilitar testes de limite
 print('===== Testando lista cheia =====')
