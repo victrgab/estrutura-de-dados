@@ -1,4 +1,4 @@
-from fila_prioridade import Fila_prioridade
+from fila_prioridade import FilaPrioridade
 
 '''
     Este aqui eu achei mais interessante utilizar exemplos mais reais.
@@ -10,7 +10,7 @@ from fila_prioridade import Fila_prioridade
     nível de emergência como self.prior
 '''
 
-fp = Fila_prioridade() # cria o objeto 
+fp = FilaPrioridade() # cria o objeto 
 
 print('\n===== TESTANDO INSERIR =====') 
 fp.inserir("José Matheus", 1) # Utiliza a função inserir no objeto, passando os devidos atributos (valor, prioridade)
